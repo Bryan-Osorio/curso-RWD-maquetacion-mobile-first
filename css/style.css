@@ -6,7 +6,6 @@
 	--size-500:500;
 	--size-700:700;
 	--background:#E5E5E5;
-	--linear-gradient:207.8deg, #201E1C 16.69%, #F7931A 100%;
 	--bitcoin-orange:#F7931A;
 	--soft-orange:#FFE9D5;
 	--secondary-blue:#FFE9D5; 
@@ -26,5 +25,86 @@
 
 html{
 	font-size: 62.5%;
-    font-family: var(--font-sans);
+}
+
+body{
+	font-size: 1.6rem;
+}
+
+/*Estilos al HEADER*/
+
+.header{
+	position: relative;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-width: 32rem;
+	height: 34.4rem;
+	text-align: center;
+	font-family: var(--font-sans); 
+	background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+}
+
+.header__image{
+	width: 15rem;
+	height: 2.4rem;
+	margin-top: 6rem;
+	align-self: center;
+}
+
+.header__container{
+	width: 85%;
+	min-width: 28.8rem;
+	max-width: 90rem;
+	height: 21.8rem;
+	margin-top: 4rem;
+	text-align: center;
+	align-self: center;
+}
+
+.header__container-title{
+	font-weight: var(--size-700);
+	color: var(--just-white);
+	font-size: 3rem;
+	line-height: 2.6rem;
+}
+
+.header__container-parrafo{
+	font-weight: var(--size-500);
+	color: var(--soft-orange);
+	font-size: 1.4rem;
+	line-height: 1.8rem;
+	margin-top: 2.5rem;
+}
+
+.header__container-botton{
+	position: absolute;
+	top: 27rem;
+	left: calc(50% - 15rem);
+	display: block;
+	margin-top: 4.5rem;
+	padding: 1.5rem;
+	padding-left: 0;
+	padding-right: 0;
+	width: 29.9rem;
+	height: 4.8rem;
+	background-color: var(--off-white);
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: var(--size-500);
+    line-height: 1.8rem;
+    box-shadow: 0px 4px 8px rgba(89,73,30,0.16);
+    border-radius: 0.5rem;
+    border: none;
+    color: var(--warm-black);
+
+}
+
+.header__container-icon{
+	display: inline-block;
+	width: 1.3rem;
+	height: 0.8rem;
+	margin-left: 2rem;
+	background-image: url('../assets/icons/arrow-down.svg');
 }
