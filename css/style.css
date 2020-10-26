@@ -160,9 +160,6 @@ body{
 	background-image: url('../assets/img/bitcoin.svg');
 }
 
-/*.main__table-container{
-	padding-bottom: 6rem;
-}*/
 
 .main__table-money{
 	width: 70%;
@@ -172,7 +169,19 @@ body{
 	height: 36rem;
 	font-family: var(--font-inter);
 	margin-top: 4rem;
+	scroll-snap-align:center;
 }
+
+/*Scroll horizontal*/
+.main__table-container{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 1.5rem;
+	overflow-x: scroll;
+	overscroll-behavio-x:contain;
+	scroll-snap-type: x proximity;
+}
+
 
 .main__table-parrafo{
 	color:#FF9536;
@@ -278,9 +287,9 @@ body{
 	font-size: 1.6rem;
 }
 
-.comisionario{
-	margin-top:4rem; 
-}
+/*.comisionario{
+	width: 80%; 
+}*/
 
 .comisiones-parrafo{
 	background-color: var(--soft-blue);
@@ -454,7 +463,6 @@ body{
 
 .main__card-content{
 	width: 75%;
-	max-width: 50rem;
 	min-width: 75%;
 	margin: 0 auto;
 	background-color: var(--just-white);
@@ -579,13 +587,59 @@ body{
 	overscroll-behavio-x:contain;
 	scroll-snap-type:  x proximity;
 	padding-top: 4rem;
-
+	padding-bottom: 1rem;
 }
 
 .main__card-content{
 	scroll-snap-align:center; /*cuando hagas scroll te lleve al centro del elemento*/
 	margin-bottom: 0;
 	margin: 0 1.5rem;
+}
+
+/*Estilos al FOOTER*/
+
+.footer{
+	background-color: var(--bitcoin-orange);
+	width: 100%;
+	
+}
+
+.footer__container{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 3rem;
+	width: 90%;
+}
+
+.footer__container-navbar{
+	list-style: none;
+	width: 50%;
+}
+
+.footer__container-item{
+	margin-bottom: 1rem;
+}
+
+.footer__container-link{
+	text-decoration: none;
+	font-family: var(--font-sans);
+	font-weight: var(--size-500);
+	font-size: 1.8rem;
+	color: var(--just-white);
+}
+
+.footer__container-logo{
+	width: 6.4rem;
+	height: 4.9rem;
+	display: block;
+	max-width: 90rem;
+	
+}
+
+.footer__container-logo-image{
+	width: 100%;
+
 }
 
 

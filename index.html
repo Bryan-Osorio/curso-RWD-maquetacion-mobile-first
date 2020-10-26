@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<link rel="stylesheet" href="./css/style.css">
-	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap" rel="stylesheet">  
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="./css/tablets.css" media="only screen and (min-width:600px)"> 
+	<link rel="stylesheet" href="./css/desktop.css" media="only screen and (min-width: 800px)">
 </head>
 <body>
 
@@ -66,13 +68,14 @@
 					 			<td class="table__cell-rigth border-rigth-botton">$ 4.96 <span class="cell-down"></span></td>
 					 		</tr>
 					 	</table>
+					 	<div class="main__update">
+					 		<p class="main__update-parrafo"><span class="main__update-bold">Actualizado:</span> 19 julio 23:55</p>
+					 	</div>
 					 </div>
-					 <div class="main__update">
-					 	<p class="main__update-parrafo"><span class="main__update-bold">Actualizado:</span> 19 julio 23:55</p>
-					 </div>
+					 
 				</div>
-				<div>
-					<div class="main__table-money">
+
+				<div class="main__table-money">
 
 					<p class="main__table-parrafo comisiones-title">
 						Comisiones
@@ -97,10 +100,11 @@
 					 			<td class="table__cell-rigth border-rigth-botton">$ 14.96</td>
 					 		</tr>
 					 	</table>
+					 	<div class="main__update">
+					 		<p class="main__update-parrafo comisiones-parrafo"><span class="main__update-bold">Actualizado:</span> 19 julio 23:48</p>
+					 	</div>
 					 </div>
-					 <div class="main__update">
-					 	<p class="main__update-parrafo comisiones-parrafo"><span class="main__update-bold">Actualizado:</span> 19 julio 23:48</p>
-					 </div>
+					 
 				</div>
 			</section>		
 			
@@ -186,9 +190,6 @@
 						<button class="main__card-button">Escoger este <span class="main__card-icon-button"></span></button>
 					</div>
 				</article>
-
-				
-				
 			</section>
 			
 		</section>
@@ -196,7 +197,22 @@
 	</main>
 
 	<footer class="footer">
-		
+		<div class="footer__container">
+			<section class="footer__container-nav">
+				<ul class="footer__container-navbar">
+				  <li class="footer__container-item"><a href="#" class="footer__container-link">Linkedin</a></li>
+				  <li class="footer__container-item"><a href="#" class="footer__container-link">Crunchbase</a></li>
+				  <li class="footer__container-item"><a href="#" class="footer__container-link">Hackernews</a></li>
+			    </ul>
+			</section>
+
+			<section class="footer__container-logo">
+				<picture>
+					<img src="./assets/img/group18.svg" alt="logo de Batabit 2020" class="footer__container-logo-image">
+				</picture>
+			</section>
+
+		</div>
 	</footer>
 	
 </body>

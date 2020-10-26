@@ -1,0 +1,65 @@
+.main__card-plan{
+	overflow-x: visible;
+}
+
+.main__card-content{
+	min-width: 30%;
+}
+
+.main__card-button{
+	padding: 1rem;
+	font-size: 1.6rem;
+}
+
+.product__cards-details{
+	width: 80%;
+}
+
+.main__container__exchange-parrafo{
+	font-size: 2rem;
+}
+
+.main__container__exchange-title{
+	font-size: 3rem;
+}
+
+.header__container-parrafo{
+	font-size: 1.8rem;
+}
+
+.main__product-text{
+	font-size: 1.8rem;
+}
+
+.product__cards-title{
+	font-size: 2rem;
+}
+
+.product__cards-body{
+	font-size: 1.8rem;
+}
+
+.main__bitcoin-title{
+	font-size: 4rem;
+	padding-top: 10rem;
+}
+
+.main__plan-information-title{
+	font-size: 3.1rem;
+}
+
+.main__plan-information-text{
+	font-size: 2rem;
+}
+
+.footer__container-logo{
+	width: 10rem;
+}
+
+.header__image{
+	width: 100%;
+}
+
+.main__table-container{
+	overflow-x: visible;
+}
